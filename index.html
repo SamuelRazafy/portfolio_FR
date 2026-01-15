@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Samuel RAZAFINTSALAMA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="contact2.js"></script>
+
+
+<body>
+
+<header>
+    <div class="header-text">
+    <h1>Samuel RAZAFINTSALAMA</h1>
+    <p>Consultant SAP Technico-Fonctionnel | Développeur ABAP</p>
+    </div>
+    <img src="sary.jpg" alt="Photo de Samuël RAZAFINTSALAMA" class="profile-photo">
+</header>
+
+<nav>
+    <a href="#profil">Profil</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#experience">Expériences</a>
+    <a href="#formation">Formation</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="profil">
+    <h2>Profil</h2>
+    <p>
+        Ingénieur de formation avec une reconversion réussie vers le développement
+        d’applications numériques. Développeur SAP ABAP avec plus de deux ans
+        d’expérience chez SAPERP Madagascar, spécialisé en ABAP, OData, Fiori
+        et SAP UI5 dans des environnements ECC et S/4HANA.
+    </p>
+</section>
+
+<section id="competences">
+    <h2>Compétences techniques</h2>
+
+    <div class="grid">
+        <div class="box">
+            <h3>SAP</h3>
+            <ul>
+                <li>ABAP, CDS, RAP</li>
+                <li>BAPI, IDoc, Enhancements</li>
+                <li>OData V2 / V4</li>
+                <li>SAP UI5, Fiori Elements</li>
+                <li>SAP ECC, S/4HANA, BTP</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>Langages</h3>
+            <ul>
+                <li>ABAP</li>
+                <li>Java, JavaScript, TypeScript</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>Bases de données</h3>
+            <ul>
+                <li>SAP HANA</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>Outils</h3>
+            <ul>
+                <li>Git / GitHub</li>
+                <li>Postman</li>
+                <li>Eclipse ADT</li>
+                <li>VS Code</li>
+                <li>Power BI</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="projets">
+    <h2>Projets SAP</h2>
+
+    <div class="box">
+        <h3>Service OData RAP – Gestion des utilisateurs SAP</h3>
+        <p>
+            Développement d’un service OData V4 basé sur RAP permettant la création,
+            la consultation et la gestion des utilisateurs SAP via BAPI_USER_CREATE1.
+        </p>
+        <ul>
+            <li>ABAP RAP, CDS, OData V4</li>
+            <li>Intégration BAPI</li>
+            <li>Application Fiori Elements (List Report)</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Application Fiori Elements – List Report</h3>
+        <p>
+            Application Fiori basée sur une CDS View exposée en OData, avec navigation
+            vers un écran de détail permettant les opérations CRUD.
+        </p>
+        <ul>
+            <li>CDS View</li>
+            <li>OData</li>
+            <li>Fiori Elements</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Traitement IDoc entrant – ORDERS05</h3>
+        <p>
+            Implémentation et test d’un scénario IDoc entrant pour la réception
+            des commandes d’achat depuis un système externe.
+        </p>
+        <ul>
+            <li>IDoc ORDERS05</li>
+            <li>Process Code & Function Modules</li>
+            <li>Debug et monitoring (WE02 / WE05)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Expériences professionnelles</h2>
+
+    <h3>Développeur SAP ABAP – SAPERP Madagascar (2023 – Aujourd’hui)</h3>
+    <ul>
+        <li>Développement et maintenance d’applications SAP ABAP.</li>
+        <li>Création de services OData pour applications Fiori.</li>
+        <li>Implémentation de BAPI, IDoc et enhancements.</li>
+        <li>Rédaction de spécifications techniques.</li>
+    </ul>
+
+    <h3>Responsable / Animateur – Centre de loisir (2012 – 2020)</h3>
+    <ul>
+        <li>Gestion d’équipe et organisation d’activités éducatives.</li>
+        <li>Développement de compétences managériales et relationnelles.</li>
+    </ul>
+</section>
+
+<section id="formation">
+    <h2>Formation</h2>
+    <ul>
+        <li>
+            <strong>Concepteur Développeur d’Applications Numériques</strong> – Inclusiv Academy (2022)
+        </li>
+        <li>
+            <strong>Diplôme d’Ingénieur des Mines</strong> – ESPA (2003 – 2008)
+        </li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:salamaikoto@gmail.com">salamaikoto@gmail.com</a></p>
+    <p>Téléphone : +261 34 99 948 99</p>
+    <p>GitHub : <a href="https://github.com/SamuelRazafy" target="_blank">github.com/SamuelRazafy</a></p>
+
+      <form id="contact-form">
+        <input type="text" name="from_name" placeholder="Votre nom" required>
+        <input type="email" name="reply_to" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Envoyer Message</button>
+    </form>
+
+    <p id="status"></p>
+</section>
+
+<footer>
+    © 2026 – Samuel RAZAFINTSALAMA
+</footer>
+
+</body>
+</html>

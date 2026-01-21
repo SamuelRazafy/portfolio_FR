@@ -180,4 +180,46 @@ section.visible {
     transform: translateY(0);
 }
 
+/* ===============================
+   Responsive Smartphone
+   =============================== */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;      /* Image au-dessus du texte */
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 15px;
+    }
+
+    .header-text h1 {
+        font-size: 24px;
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+}
 
